@@ -154,6 +154,31 @@
 			"source": "警察局",
 			"contributors": ["tuic"]
 		},
+		"10": {
+			"id": 10,
+			"index": "ntuhifroom",
+			"history_data": false,
+			"map_config": null,
+			"chart_config": {
+				"color": ["#FD5696", "#00A9E0", "#FFFB73"],
+				"types": ["TimelineSeparateChart"],
+				"unit": "人"
+			},
+			"name": "臺大醫院資訊室組別人員",
+			"source": "臺大醫院資訊室",
+			"time_from": "2023-01-01T23:59:59+08:00",
+			"time_to": "2023-05-01T23:59:59+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "month",
+			"short_desc": "顯示每月的資訊室人員資訊",
+			"long_desc": "顯示每月的資訊室人員資訊，資料來源為臺大醫院資訊室開放資料，每月更新。",
+			"use_case": "藉由掌握臺大醫院資訊室人員，我們可以瞭解資訊室人員配置狀況。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=dc7e246a-a88e-42f8-8cd6-9739209af774"
+			],
+			"tags": [],
+			"contributors": ["alanPeng"]
+		},
 		"11": {
 			"id": 11,
 			"index": "designate",

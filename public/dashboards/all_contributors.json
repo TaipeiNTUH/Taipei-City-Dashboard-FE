@@ -4,6 +4,11 @@
 			"id": "tuic",
 			"name": "臺北大數據中心",
 			"link": "https://tuic.gov.taipei/zh"
+		},
+		"alanPeng": {
+			"id": "alanPeng",
+			"name": "臺大醫院資訊室",
+			"link": "https://avatars.githubusercontent.com/u/15197152?s=40&v=4"
 		}
 	}
 }
