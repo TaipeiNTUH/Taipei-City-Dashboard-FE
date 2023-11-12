@@ -4212,6 +4212,177 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"801": {
+			"id": 801,
+			"index": "hiking_routes",
+			"map_config": [
+				{
+					"index": "hiking_routes",
+					"paint": {
+						"line-color": [
+							"match",
+							["get", "Level"],
+							["簡易"],
+							"#4DD97A",
+							["中等"],
+							"#D68D35",
+							["較難"],
+							"#F65658",
+							"#505050"
+						]
+					},
+					"property": [
+						{
+							"key": "hikingRouteName",
+							"name": "登山步道路線"
+						},
+						{
+							"key": "distance",
+							"name": "總長M單程"
+						},
+						{
+							"key": "spendTime",
+							"name": "步行時間min"
+						},
+						{
+							"key": "Level",
+							"name": "難易度"
+						}
+					],
+					"type": "line"
+				},
+				{
+					"index": "hiking_routes_start_end",
+					"property": [
+						{
+							"key": "name",
+							"name": "登山步道路線"
+						},
+						{
+							"key": "Level",
+							"name": "難易度"
+						},
+						{
+							"key": "main_type",
+							"name": "起迄點"
+						},
+						{
+							"key": "address",
+							"name": "位址"
+						}
+					],
+					"type": "symbol",
+					"size": "big",
+					"icon": "hiking-routes",
+					"title": "登山步道路線"
+				}
+			],
+			"chart_config": {
+				"color": ["#4DD97A", "#D68D35", "#F65658"],
+				"types": ["BarChart", "DonutChart"],
+				"unit": "難易度",
+				"map_filter": ["Level", ["簡易", "中等", "較難"]]
+			},
+			"name": "登山步道路線",
+			"source": "登山步道路線",
+			"time_from": "2023-05-31T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 3,
+			"update_freq_unit": "minute",
+			"short_desc": "登山步道路線",
+			"long_desc": "登山步道路線",
+			"use_case": "登山步道路線",
+			"links": ["https://www.metro.taipei/cp.aspx?n=BDEB860F2BE3E249"],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"901": {
+			"id": 901,
+			"index": "littleredhood",
+			"map_config": [
+				{
+					"index": "littleredhood",
+					"paint": {
+						"circle-color": [
+							"match",
+							["get", "main_type"],
+							"校園生理用品共享盒",
+							"#F65658",
+							"提供免費生理用品",
+							"#F49F36",
+							"有標示月經友善餐點、飲品",
+							"#F5C860",
+							"提供腰部靠枕或熱敷袋",
+							"#9AC17C",
+							"過往認證月經友善空間",
+							"#4CB495",
+							"其他服務",
+							"#569C9A",
+							"#60819C"
+						]
+					},
+					"property": [
+						{
+							"key": "main_type",
+							"name": "主要類別"
+						},
+						{
+							"key": "sub_type",
+							"name": "次要分類"
+						},
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						}
+					],
+					"type": "circle",
+					"size": "big",
+					"title": "小紅點月經友善環境"
+				}
+			],
+			"chart_config": {
+				"color": [
+					"#F65658",
+					"#F49F36",
+					"#F5C860",
+					"#9AC17C",
+					"#4CB495",
+					"#569C9A",
+					"#60819C"
+				],
+				"types": ["BarChart", "DonutChart"],
+				"unit": "間",
+				"map_filter": [
+					"main_type",
+					[
+						"校園生理用品共享盒",
+						"提供免費生理用品",
+						"有標示月經友善餐點、飲品",
+						"提供腰部靠枕或熱敷袋",
+						"過往認證月經友善空間",
+						"其他服務"
+					]
+				]
+			},
+			"name": "小紅點月經友善環境",
+			"source": "小紅帽",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示社會福利機構點位及機構類型",
+			"long_desc": "顯示社會福利機構點位及機構類型，資料來源為台北市社會局內部資料，每月15日更新。",
+			"use_case": "根據機構空間的分佈情況，檢視社會福利機構是否均勻分布，同時整合市有土地、社會住宅等潛在可使用之空間，以研擬增設位置與類型的方案。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=cabdf272-e0ec-4e4e-9136-f4b8596f35d9"
+			],
+			"tags": [],
+			"contributors": ["littleredhood"]
 		}
 	}
 }
