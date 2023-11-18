@@ -4273,6 +4273,45 @@
 			],
 			"tags": [],
 			"contributors": ["littleredhood"]
+		},
+		"902": {
+			"id": 902,
+			"index": "employee_gender",
+			"map_config": null,
+			"chart_config": {
+				"types": ["ColumnChart"],
+				"color": ["#00A9FF", "#F875AA"],
+				"unit": "人",
+				"stacked": false,
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				]
+			},
+			"name": "臺北市政府各機關員工性別人數統計",
+			"source": "人事處",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示臺北市政府各機關員工性別人數統計",
+			"long_desc": "顯示臺北市政府各機關員工性別人數統計。",
+			"use_case": "透過台北市人事處公開資料，我們能了解當前臺北市政府各機關員工性別人數統計。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=3f80d60e-6fa3-47bd-899a-e2201985d6cf"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
 	}
 }
