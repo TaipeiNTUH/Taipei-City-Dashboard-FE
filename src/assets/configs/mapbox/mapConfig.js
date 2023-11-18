@@ -358,4 +358,25 @@ export const maplayerCommonLayout = {
 			60,
 		],
 	},
+	"symbol-hiking-routes": {
+		"icon-image": [
+			"case",
+			["==", ["get", "main_type"], "起點"],
+			"startingP",
+			["==", ["get", "main_type"], "終點"],
+			"terminalP",
+			"bike_orange",
+		],
+		"icon-size": [
+			"interpolate",
+			["linear"],
+			["zoom"],
+			11.99,
+			0.7,
+			14,
+			1.1,
+			22,
+			1.4,
+		],
+	},
 };
