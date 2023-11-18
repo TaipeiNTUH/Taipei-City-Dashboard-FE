@@ -9,7 +9,9 @@
 /* Department of Information Technology, Taipei City Government */
 
 // Import the Essentials
-import { createApp } from "vue";
+import {
+	createApp
+} from "vue";
 import "./assets/styles/globalStyles.css";
 import "./assets/styles/chartStyles.css";
 import "./assets/styles/toggleswitch.css";
@@ -17,11 +19,14 @@ import App from "./App.vue";
 
 // Import Core Packages: Vue-Router, Pinia, Apexcharts
 import router from "./router";
-import { createPinia } from "pinia";
+import {
+	createPinia
+} from "pinia";
 import VueApexCharts from "vue3-apexcharts";
 
 // Import Global Components
 import DistrictChart from "./components/charts/DistrictChart.vue";
+import DistrictChartWithPie from "./components/charts/DistrictChartWithPie.vue";
 import DonutChart from "./components/charts/DonutChart.vue";
 import BarChart from "./components/charts/BarChart.vue";
 import TreemapChart from "./components/charts/TreemapChart.vue";
@@ -44,6 +49,7 @@ app.use(pinia);
 app.use(VueApexCharts);
 
 app.component("DistrictChart", DistrictChart);
+app.component("DistrictChartWithPie", DistrictChartWithPie);
 app.component("DonutChart", DonutChart);
 app.component("BarChart", BarChart);
 app.component("TreemapChart", TreemapChart);
