@@ -9,7 +9,7 @@ const mapStore = useMapStore();
 
 const chartOptions = ref({
 	chart: {
-		stacked: true,
+		stacked: props.chart_config.stacked !== undefined ? props.chart_config.stacked : true,
 		toolbar: {
 			show: false
 		},
