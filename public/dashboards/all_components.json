@@ -4265,38 +4265,118 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示社會福利機構點位及機構類型",
-			"long_desc": "顯示社會福利機構點位及機構類型，資料來源為台北市社會局內部資料，每月15日更新。",
-			"use_case": "根據機構空間的分佈情況，檢視社會福利機構是否均勻分布，同時整合市有土地、社會住宅等潛在可使用之空間，以研擬增設位置與類型的方案。",
+			"short_desc": "小紅點月經友善環境",
+			"long_desc": "小紅點月經友善環境",
+			"use_case": "小紅點月經友善環境",
 			"links": [
-				"https://data.taipei/dataset/detail?id=cabdf272-e0ec-4e4e-9136-f4b8596f35d9"
+				"https://www.google.com/maps/d/viewer?mid=1vS6p5SMv2q8xgSpc-gIFdjJGnBbQuoiY&hl=en_US&ll=25.031537960365245%2C121.53487966826006&z=14"
 			],
 			"tags": [],
-			"contributors": ["littleredhood"]
+			"contributors": ["tuic"]
 		},
 		"902": {
 			"id": 902,
 			"index": "employee_gender",
-			"map_config": null,
+			"map_config": [
+			 {
+			  "index": "Employee_gender3",
+			  "paint": {
+			   "fill-extrusion-color": "#00A9FF",
+			   "fill-extrusion-opacity": 0.8,
+			   "fill-extrusion-base": 0,
+			   "fill-extrusion-height": [
+				"interpolate",
+				[
+				 "linear"
+				],
+				[
+				 "to-number",
+				 [
+				  "get",
+				  "M"
+				 ]
+				],
+				500,
+				0,
+				50,
+				500
+			   ]
+			  },
+			  "property": [
+			   {
+				"key": "name",
+				"name": "機關名稱"
+			   },
+			   {
+				"key": "M",
+				"name": "男性員工人數"
+			   }
+			  ],
+			  "type": "fill-extrusion",
+			  "title": "公共停車場"
+			 },
+			 {
+			  "index": "Employee_gender4",
+			  "paint": {
+			   "fill-extrusion-color": "#F875AA",
+			   "fill-extrusion-opacity": 0.8,
+			   "fill-extrusion-base": 0,
+			   "fill-extrusion-height": [
+				"interpolate",
+				[
+				 "linear"
+				],
+				[
+				 "to-number",
+				 [
+				  "get",
+				  "F"
+				 ]
+				],
+				0,
+				0,
+				50,
+				500
+			   ]
+			  },
+			  "property": [
+			   {
+				"key": "name",
+				"name": "機關名稱"
+			   },
+			   {
+				"key": "F",
+				"name": "女性員工人數"
+			   }
+			  ],
+			  "type": "fill-extrusion",
+			  "title": "公共停車場"
+			 }
+			],
 			"chart_config": {
-				"types": ["ColumnChart"],
-				"color": ["#00A9FF", "#F875AA"],
-				"unit": "人",
-				"stacked": false,
-				"categories": [
-					"北投區",
-					"士林區",
-					"內湖區",
-					"南港區",
-					"松山區",
-					"信義區",
-					"中山區",
-					"大同區",
-					"中正區",
-					"萬華區",
-					"大安區",
-					"文山區"
-				]
+			 "types": [
+			  "ColumnChart"
+			 ],
+			 "color": [
+			  "#00A9FF",
+			  "#F875AA"
+			 ],
+			 "unit": "人",
+			 "stacked": false,
+			 "categories": [
+			  "北投區",
+			  "士林區",
+			  "內湖區",
+			  "南港區",
+			  "松山區",
+			  "信義區",
+			  "中山區",
+			  "大同區",
+			  "中正區",
+			  "萬華區",
+			  "大安區",
+			  "文山區"
+			 ]
 			},
 			"name": "臺北市政府各機關員工性別人數統計",
 			"source": "人事處",
@@ -4308,7 +4388,35 @@
 			"long_desc": "顯示臺北市政府各機關員工性別人數統計。",
 			"use_case": "透過台北市人事處公開資料，我們能了解當前臺北市政府各機關員工性別人數統計。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=3f80d60e-6fa3-47bd-899a-e2201985d6cf"
+			 "https://data.taipei/dataset/detail?id=3f80d60e-6fa3-47bd-899a-e2201985d6cf"
+			],
+			"tags": [],
+			"contributors": [
+			 "tuic"
+			]
+		},
+		"909": {
+			"id": 909,
+			"index": "gender_law",
+			"map_config": null,
+			"history_data": true,
+			"chart_config": {
+				"types": ["TimelineSeparateChart", "TimelineStackedChart"],
+				"color": ["#00A9FF", "#F875AA"],
+				"unit": "人"
+			},
+			"name": "依性別平等教育法性騷擾通報案",
+			"source": "主計處",
+			"time_from": "2015-07-01T00:00:00+08:00",
+			"time_to": "2022-07-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "依性別平等教育法性騷擾通報案",
+			"long_desc": "依性別平等教育法性騷擾通報案",
+			"use_case": "依性別平等教育法性騷擾通報案",
+			"links": [
+				"https://data.taipei/dataset/detail?id=0816f991-e6c8-4da0-a789-d022fee1462b",
+				"https://data.taipei/dataset/detail?id=d8834353-ff8e-4a6c-9730-a4d3541f2669"
 			],
 			"tags": [],
 			"contributors": ["tuic"]
