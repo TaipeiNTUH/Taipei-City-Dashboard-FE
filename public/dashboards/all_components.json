@@ -4958,7 +4958,7 @@
 							[
 								"中等"
 							],
-							"#D68D35",
+							"#EEF296",
 							[
 								"較難"
 							],
@@ -5013,8 +5013,8 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#4DD97A", "#D68D35", "#F65658"],
-				"types": ["BarChart", "DonutChart"],
+				"color": ["#4DD97A", "#EEF296", "#F65658"],
+				"types": ["DonutChart", "BarChart"],
 				"unit": "難易度"
 			},
 			"name": "登山步道路線",
@@ -5081,7 +5081,7 @@
 					"52.4"
 				],
 				"color": [
-					"#33C552"
+					"#EEF296"
 				],
 				"types": [
 					"DistrictChartWithPie",
@@ -5104,18 +5104,32 @@
 						"大安區",
 						"文山區"
 					]
+				],
+				"categories": [
+				 "北投區",
+				 "士林區",
+				 "內湖區",
+				 "南港區",
+				 "松山區",
+				 "信義區",
+				 "中山區",
+				 "大同區",
+				 "中正區",
+				 "萬華區",
+				 "大安區",
+				 "文山區"
 				]
 			},
 			"history_data": false,
 			"source": "台北市稅捐稽徵處、台北市政府民政局",
-			"time_from": "2020-01-01T00:00:00+08:00",
-			"time_to": "2020-12-31T00:00:00+08:00",
-			"update_freq": null,
-			"update_freq_unit": null,
-			"name": "繳納房屋稅之性別比率暨未婚率",
-			"short_desc": "顯示全市各行政區的未婚率和繳納房屋稅之性別比率",
-			"long_desc": "顯示全市各行政區的未婚率和繳納房屋稅之性別比率，資料來源為台北市稅捐稽徵處和台北市政府民政局，每年更新。",
-			"use_case": "台北市各行政區的未婚率和繳納房屋稅之性別比率，將幫助未婚朋友了解在哪一區較容易遇到未婚且有房的異性，並進一步有實際行動。",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"name": "繳納房屋稅之性別比率暨未婚人數",
+			"short_desc": "顯示全市各行政區的未婚人數和繳納房屋稅之性別比率",
+			"long_desc": "顯示全市各行政區的未婚人數和繳納房屋稅之性別比率，資料來源為台北市稅捐稽徵處和台北市政府民政局，每年更新。",
+			"use_case": "台北市各行政區的未婚人數和繳納房屋稅之性別比率，將幫助未婚朋友了解在哪一區較容易遇到未婚且有房的異性，並進一步有實際行動。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=3ef2a875-f95a-457e-84ae-9f25599663d9"
 			],
@@ -5171,7 +5185,7 @@
 					"52.4"
 				],
 				"color": [
-					"#33C552"
+					"#EEF296"
 				],
 				"types": [
 					"DistrictChartWithPie",
@@ -5194,12 +5208,26 @@
 						"大安區",
 						"文山區"
 					]
+				],
+				"categories": [
+				 "北投區",
+				 "士林區",
+				 "內湖區",
+				 "南港區",
+				 "松山區",
+				 "信義區",
+				 "中山區",
+				 "大同區",
+				 "中正區",
+				 "萬華區",
+				 "大安區",
+				 "文山區"
 				]
 			},
 			"history_data": false,
 			"source": "台北市稅捐稽徵處、台北市政府民政局、台北市政府地政局",
-			"time_from": "2022-01-01T00:00:00+08:00",
-			"time_to": "2022-12-31T00:00:00+08:00",
+			"time_from": null,
+			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"name": "繳納房屋稅之性別比率暨人口密度",
@@ -5261,7 +5289,7 @@
 					"52.4"
 				],
 				"color": [
-					"#33C552"
+					"#EEF296"
 				],
 				"types": [
 					"DistrictChartWithPie",
@@ -5284,12 +5312,26 @@
 						"大安區",
 						"文山區"
 					]
+				],
+				"categories": [
+				 "北投區",
+				 "士林區",
+				 "內湖區",
+				 "南港區",
+				 "松山區",
+				 "信義區",
+				 "中山區",
+				 "大同區",
+				 "中正區",
+				 "萬華區",
+				 "大安區",
+				 "文山區"
 				]
 			},
 			"history_data": false,
 			"source": "台北市稅捐稽徵處、台北市政府民政局",
-			"time_from": "2020-01-01T00:00:00+08:00",
-			"time_to": "2020-12-31T00:00:00+08:00",
+			"time_from": null,
+			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"name": "繳納房屋稅之性別比率暨老化指數",
@@ -5318,17 +5360,13 @@
 								"main_type"
 							],
 							"校園生理用品共享盒",
-							"#F65658",
+							"#FF0060",
 							"提供免費生理用品",
-							"#F49F36",
-							"有標示月經友善餐點、飲品",
-							"#F5C860",
+							"#F6FA70",
 							"提供腰部靠枕或熱敷袋",
-							"#9AC17C",
+							"#00DFA2",
 							"過往認證月經友善空間",
-							"#4CB495",
-							"其他服務",
-							"#569C9A",
+							"#0079FF",
 							"#60819C"
 						]
 					},
@@ -5357,17 +5395,14 @@
 			],
 			"chart_config": {
 				"color": [
-					"#F65658",
-					"#F49F36",
-					"#F5C860",
-					"#9AC17C",
-					"#4CB495",
-					"#569C9A",
+					"#FF0060",
+					"#F6FA70",
+					"#00DFA2",
+					"#0079FF",
 					"#60819C"
 				],
 				"types": [
-					"BarChart",
-					"DonutChart"
+					"BarChart"
 				],
 				"unit": "間",
 				"map_filter": [
@@ -5375,10 +5410,8 @@
 					[
 						"校園生理用品共享盒",
 						"提供免費生理用品",
-						"有標示月經友善餐點、飲品",
 						"提供腰部靠枕或熱敷袋",
-						"過往認證月經友善空間",
-						"其他服務"
+						"過往認證月經友善空間"
 					]
 				]
 			},
@@ -5404,10 +5437,10 @@
 			"index": "employee_gender",
 			"map_config": [
 			 {
-			  "index": "Employee_gender3",
+			  "index": "employee_gender",
 			  "paint": {
 			   "fill-extrusion-color": "#00A9FF",
-			   "fill-extrusion-opacity": 0.8,
+			   "fill-extrusion-opacity": 1,
 			   "fill-extrusion-base": 0,
 			   "fill-extrusion-height": [
 				"interpolate",
@@ -5421,10 +5454,10 @@
 				  "M"
 				 ]
 				],
-				500,
 				0,
-				50,
-				500
+				0,
+				10000,
+				8000
 			   ]
 			  },
 			  "property": [
@@ -5435,16 +5468,19 @@
 			   {
 				"key": "M",
 				"name": "男性員工人數"
+			   },
+			   {
+				"key": "F",
+				"name": "女性員工人數"
 			   }
 			  ],
-			  "type": "fill-extrusion",
-			  "title": "公共停車場"
+			  "type": "fill-extrusion"
 			 },
 			 {
-			  "index": "Employee_gender4",
+			  "index": "employee_gender2",
 			  "paint": {
 			   "fill-extrusion-color": "#F875AA",
-			   "fill-extrusion-opacity": 0.8,
+			   "fill-extrusion-opacity": 1,
 			   "fill-extrusion-base": 0,
 			   "fill-extrusion-height": [
 				"interpolate",
@@ -5460,8 +5496,8 @@
 				],
 				0,
 				0,
-				50,
-				500
+				10000,
+				8000
 			   ]
 			  },
 			  "property": [
@@ -5470,12 +5506,15 @@
 				"name": "機關名稱"
 			   },
 			   {
+				"key": "M",
+				"name": "男性員工人數"
+			   },
+			   {
 				"key": "F",
 				"name": "女性員工人數"
 			   }
 			  ],
-			  "type": "fill-extrusion",
-			  "title": "公共停車場"
+			  "type": "fill-extrusion"
 			 }
 			],
 			"chart_config": {
@@ -5503,12 +5542,12 @@
 			  "文山區"
 			 ]
 			},
-			"name": "臺北市政府各機關員工性別人數統計",
+			"name": "北市府各機關員工性別人數統計",
 			"source": "人事處",
 			"time_from": null,
 			"time_to": null,
-			"update_freq": null,
-			"update_freq_unit": null,
+			"update_freq": 1,
+			"update_freq_unit": "month",
 			"short_desc": "顯示臺北市政府各機關員工性別人數統計",
 			"long_desc": "顯示臺北市政府各機關員工性別人數統計。",
 			"use_case": "透過台北市人事處公開資料，我們能了解當前臺北市政府各機關員工性別人數統計。",
@@ -5519,7 +5558,7 @@
 			"contributors": [
 			 "tuic"
 			]
-		},
+		   },
 		"909": {
 			"id": 909,
 			"index": "gender_law",

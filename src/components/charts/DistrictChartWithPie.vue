@@ -174,7 +174,7 @@ function handleDataSelection(index) {
 				}"
 			></circle>
 			<text x="23%" y="85%" style="z-index: 100000">
-				{{ props.chart_config.pieTextRed[2] }}
+				{{ props.chart_config.pieTextRed[3] }}
 			</text>
 		</svg>
 		<!-- 松山區Pie -->
@@ -182,7 +182,7 @@ function handleDataSelection(index) {
 		<!-- 中山區Pie -->
 		<svg viewBox="0 0 64 64" class="pie" style="left: 41%; top: 57%">
 			<text x="23%" y="35%" style="z-index: 100000">
-				{{ props.chart_config.pieTextBlue[3] }}
+				{{ props.chart_config.pieTextBlue[4] }}
 			</text>
 			<circle
 				r="25%"
