@@ -4171,17 +4171,16 @@
 			"chart_config": {
 				"color": ["#4DD97A", "#D68D35", "#F65658"],
 				"types": ["BarChart", "DonutChart"],
-				"unit": "難易度",
-				"map_filter": ["Level", ["簡易", "中等", "較難"]]
+				"unit": "難易度"
 			},
 			"name": "登山步道路線",
-			"source": "登山步道路線",
-			"time_from": "2023-05-31T00:00:00+08:00",
+			"source": "工務局大地工程處",
+			"time_from": null,
 			"time_to": null,
-			"update_freq": 3,
-			"update_freq_unit": "minute",
-			"short_desc": "登山步道路線",
-			"long_desc": "登山步道路線",
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "鼓勵人們走出戶外，親近大自然之餘認識同好",
+			"long_desc": "鼓勵人們走出戶外，親近大自然之餘認識同好，建立深度關係",
 			"use_case": "登山步道路線",
 			"links": ["https://www.metro.taipei/cp.aspx?n=BDEB860F2BE3E249"],
 			"tags": [],
@@ -4265,8 +4264,8 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "小紅點月經友善環境",
-			"long_desc": "小紅點月經友善環境",
+			"short_desc": "打造生活中的月經友善環境集結了全臺月經友善店家、場館、公共場域等實體空間",
+			"long_desc": "考量到月經來潮的人，可能會因此一自然生理現象，而產生的不同需求，並藉由空間或服務的設計，如提供免費生理用品、開放廁所借用、提供熱敷墊與靠枕等措施，讓在此空間中的人們，都能夠不因月經而受限，且能自在、安心地討論月經",
 			"use_case": "小紅點月經友善環境",
 			"links": [
 				"https://www.google.com/maps/d/viewer?mid=1vS6p5SMv2q8xgSpc-gIFdjJGnBbQuoiY&hl=en_US&ll=25.031537960365245%2C121.53487966826006&z=14"
@@ -4274,127 +4273,133 @@
 			"tags": [],
 			"contributors": ["tuic"]
 		},
-		"902": {
-			"id": 902,
-			"index": "employee_gender",
-			"map_config": [
-			 {
-			  "index": "Employee_gender3",
-			  "paint": {
-			   "fill-extrusion-color": "#00A9FF",
-			   "fill-extrusion-opacity": 0.8,
-			   "fill-extrusion-base": 0,
-			   "fill-extrusion-height": [
-				"interpolate",
-				[
-				 "linear"
-				],
-				[
-				 "to-number",
-				 [
-				  "get",
-				  "M"
-				 ]
-				],
-				500,
-				0,
-				50,
-				500
-			   ]
-			  },
-			  "property": [
-			   {
-				"key": "name",
-				"name": "機關名稱"
-			   },
-			   {
-				"key": "M",
-				"name": "男性員工人數"
-			   }
-			  ],
-			  "type": "fill-extrusion",
-			  "title": "公共停車場"
-			 },
-			 {
-			  "index": "Employee_gender4",
-			  "paint": {
-			   "fill-extrusion-color": "#F875AA",
-			   "fill-extrusion-opacity": 0.8,
-			   "fill-extrusion-base": 0,
-			   "fill-extrusion-height": [
-				"interpolate",
-				[
-				 "linear"
-				],
-				[
-				 "to-number",
-				 [
-				  "get",
-				  "F"
-				 ]
-				],
-				0,
-				0,
-				50,
-				500
-			   ]
-			  },
-			  "property": [
-			   {
-				"key": "name",
-				"name": "機關名稱"
-			   },
-			   {
-				"key": "F",
-				"name": "女性員工人數"
-			   }
-			  ],
-			  "type": "fill-extrusion",
-			  "title": "公共停車場"
-			 }
-			],
-			"chart_config": {
-			 "types": [
-			  "ColumnChart"
-			 ],
-			 "color": [
-			  "#00A9FF",
-			  "#F875AA"
-			 ],
-			 "unit": "人",
-			 "stacked": false,
-			 "categories": [
-			  "北投區",
-			  "士林區",
-			  "內湖區",
-			  "南港區",
-			  "松山區",
-			  "信義區",
-			  "中山區",
-			  "大同區",
-			  "中正區",
-			  "萬華區",
-			  "大安區",
-			  "文山區"
-			 ]
-			},
-			"name": "臺北市政府各機關員工性別人數統計",
-			"source": "人事處",
-			"time_from": null,
-			"time_to": null,
-			"update_freq": null,
-			"update_freq_unit": null,
-			"short_desc": "顯示臺北市政府各機關員工性別人數統計",
-			"long_desc": "顯示臺北市政府各機關員工性別人數統計。",
-			"use_case": "透過台北市人事處公開資料，我們能了解當前臺北市政府各機關員工性別人數統計。",
-			"links": [
-			 "https://data.taipei/dataset/detail?id=3f80d60e-6fa3-47bd-899a-e2201985d6cf"
-			],
-			"tags": [],
-			"contributors": [
-			 "tuic"
-			]
-		},
+  "902": {
+   "id": 902,
+   "index": "employee_gender",
+   "map_config": [
+    {
+     "index": "employee_gender",
+     "paint": {
+      "fill-extrusion-color": "#00A9FF",
+      "fill-extrusion-opacity": 1,
+      "fill-extrusion-base": 0,
+      "fill-extrusion-height": [
+       "interpolate",
+       [
+        "linear"
+       ],
+       [
+        "to-number",
+        [
+         "get",
+         "M"
+        ]
+       ],
+       0,
+       0,
+       10000,
+       8000
+      ]
+     },
+     "property": [
+      {
+       "key": "name",
+       "name": "機關名稱"
+      },
+      {
+       "key": "M",
+       "name": "男性員工人數"
+      },
+      {
+       "key": "F",
+       "name": "女性員工人數"
+      }
+     ],
+     "type": "fill-extrusion"
+    },
+    {
+     "index": "employee_gender2",
+     "paint": {
+      "fill-extrusion-color": "#F875AA",
+      "fill-extrusion-opacity": 1,
+      "fill-extrusion-base": 0,
+      "fill-extrusion-height": [
+       "interpolate",
+       [
+        "linear"
+       ],
+       [
+        "to-number",
+        [
+         "get",
+         "F"
+        ]
+       ],
+       0,
+       0,
+       10000,
+       8000
+      ]
+     },
+     "property": [
+      {
+       "key": "name",
+       "name": "機關名稱"
+      },
+      {
+       "key": "M",
+       "name": "男性員工人數"
+      },
+      {
+       "key": "F",
+       "name": "女性員工人數"
+      }
+     ],
+     "type": "fill-extrusion"
+    }
+   ],
+   "chart_config": {
+    "types": [
+     "ColumnChart"
+    ],
+    "color": [
+     "#00A9FF",
+     "#F875AA"
+    ],
+    "unit": "人",
+    "stacked": false,
+    "categories": [
+     "北投區",
+     "士林區",
+     "內湖區",
+     "南港區",
+     "松山區",
+     "信義區",
+     "中山區",
+     "大同區",
+     "中正區",
+     "萬華區",
+     "大安區",
+     "文山區"
+    ]
+   },
+   "name": "北市府各機關員工性別人數統計",
+   "source": "人事處",
+   "time_from": null,
+   "time_to": null,
+   "update_freq": 1,
+   "update_freq_unit": "month",
+   "short_desc": "顯示臺北市政府各機關員工性別人數統計",
+   "long_desc": "顯示臺北市政府各機關員工性別人數統計。",
+   "use_case": "透過台北市人事處公開資料，我們能了解當前臺北市政府各機關員工性別人數統計。",
+   "links": [
+    "https://data.taipei/dataset/detail?id=3f80d60e-6fa3-47bd-899a-e2201985d6cf"
+   ],
+   "tags": [],
+   "contributors": [
+    "tuic"
+   ]
+  },
 		"909": {
 			"id": 909,
 			"index": "gender_law",
