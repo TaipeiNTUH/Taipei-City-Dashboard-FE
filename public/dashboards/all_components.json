@@ -5595,12 +5595,12 @@
 		},
 		"910": {
 			"id": 910,
-			"index": "building_license",
+			"index": "GIIindex",
 			"map_config": null,
 			"history_data": true,
 			"chart_config": {
 				"types": ["TimelineStackedChart"],
-				"color": ["#4dd97a", "#0a85f4"],
+				"color": ["#4dd97a"],
 				"unit": "%"
 			},
 			"name": "性別不平等指數[GII]",
@@ -5610,10 +5610,35 @@
 			"update_freq": 1,
 			"update_freq_unit": "month",
 			"short_desc": "GII 是使用三個維度衡量性別不平等的綜合指標",
-			"long_desc": "以生殖健康、賦權及勞動市場3 個領域之5 項指標衡量各國性別平等情形，本指數介於0至1之間，愈趨近於0表示性別愈平等。",
-			"use_case": "",
+			"long_desc": "以生殖健康、賦權及勞動市場3 個領域之5 項指標衡量各國性別平等情形。",
+			"use_case": "本指數介於0至1之間，愈趨近於0表示性別愈平等。",
 			"links": [
 				"https://tsis.dbas.gov.taipei/statis/webMain.aspx?sys=220&ym=9100&ymt=11100&kind=21&type=0&funid=a02000091&cycle=4&outmode=0&compmode=00&outmode=0&ohtml=q250&outkind=11&fld0=1&rdm=R59049"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"911": {
+			"id": 911,
+			"index": "GGIindex",
+			"map_config": null,
+			"history_data": true,
+			"chart_config": {
+				"types": ["TimelineStackedChart"],
+				"color": [ "#0a85f4"],
+				"unit": "%"
+			},
+			"name": "性別落差指數 (GGI)",
+			"source": "台北市政府主計處",
+			"time_from": "2002-01-01T00:00:00+08:00",
+			"time_to": "2022-06-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "month",
+			"short_desc": "性別落差指數 Gender Gap Index",
+			"long_desc": "性別落差指數[GGI]為世界經濟論壇[WEF]於2006年所創編，用以衡量各國男女在社會資源分配與取得機會之差異程度。",
+			"use_case": "數值介於 0~1 之間，值越接近 1，表示平等程度越高。GGI涵蓋政治、經濟參與、教育及健康四個領域。",
+			"links": [
+				"https://gec.ey.gov.tw/page/E0810325D36C4E10"
 			],
 			"tags": [],
 			"contributors": ["tuic"]
