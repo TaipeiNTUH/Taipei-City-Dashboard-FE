@@ -3441,21 +3441,6 @@
 				}
 			],
 			"chart_config": {
-				"persentage": [
-					"10 100",
-					"20 100",
-					"30 100",
-					"40 100",
-					"50 100",
-					"60 100",
-					"70 100",
-					"80 100",
-					"90 100",
-					"15 100",
-					"25 100",
-					"35 100",
-					"45 100"
-				],
 				"color": [
 					"#33C552"
 				],
@@ -5013,8 +4998,15 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#4DD97A", "#EEF296", "#F65658"],
-				"types": ["DonutChart", "BarChart"],
+				"color": [
+					"#4DD97A",
+					"#EEF296",
+					"#F65658"
+				],
+				"types": [
+					"DonutChart",
+					"BarChart"
+				],
 				"unit": "難易度"
 			},
 			"name": "登山步道路線",
@@ -5106,18 +5098,18 @@
 					]
 				],
 				"categories": [
-				 "北投區",
-				 "士林區",
-				 "內湖區",
-				 "南港區",
-				 "松山區",
-				 "信義區",
-				 "中山區",
-				 "大同區",
-				 "中正區",
-				 "萬華區",
-				 "大安區",
-				 "文山區"
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
 				]
 			},
 			"history_data": false,
@@ -5210,18 +5202,18 @@
 					]
 				],
 				"categories": [
-				 "北投區",
-				 "士林區",
-				 "內湖區",
-				 "南港區",
-				 "松山區",
-				 "信義區",
-				 "中山區",
-				 "大同區",
-				 "中正區",
-				 "萬華區",
-				 "大安區",
-				 "文山區"
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
 				]
 			},
 			"history_data": false,
@@ -5314,18 +5306,18 @@
 					]
 				],
 				"categories": [
-				 "北投區",
-				 "士林區",
-				 "內湖區",
-				 "南港區",
-				 "松山區",
-				 "信義區",
-				 "中山區",
-				 "大同區",
-				 "中正區",
-				 "萬華區",
-				 "大安區",
-				 "文山區"
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
 				]
 			},
 			"history_data": false,
@@ -5436,111 +5428,111 @@
 			"id": 902,
 			"index": "employee_gender",
 			"map_config": [
-			 {
-			  "index": "employee_gender",
-			  "paint": {
-			   "fill-extrusion-color": "#00A9FF",
-			   "fill-extrusion-opacity": 1,
-			   "fill-extrusion-base": 0,
-			   "fill-extrusion-height": [
-				"interpolate",
-				[
-				 "linear"
-				],
-				[
-				 "to-number",
-				 [
-				  "get",
-				  "M"
-				 ]
-				],
-				0,
-				0,
-				10000,
-				8000
-			   ]
-			  },
-			  "property": [
-			   {
-				"key": "name",
-				"name": "機關名稱"
-			   },
-			   {
-				"key": "M",
-				"name": "男性員工人數"
-			   },
-			   {
-				"key": "F",
-				"name": "女性員工人數"
-			   }
-			  ],
-			  "type": "fill-extrusion"
-			 },
-			 {
-			  "index": "employee_gender2",
-			  "paint": {
-			   "fill-extrusion-color": "#F875AA",
-			   "fill-extrusion-opacity": 1,
-			   "fill-extrusion-base": 0,
-			   "fill-extrusion-height": [
-				"interpolate",
-				[
-				 "linear"
-				],
-				[
-				 "to-number",
-				 [
-				  "get",
-				  "F"
-				 ]
-				],
-				0,
-				0,
-				10000,
-				8000
-			   ]
-			  },
-			  "property": [
-			   {
-				"key": "name",
-				"name": "機關名稱"
-			   },
-			   {
-				"key": "M",
-				"name": "男性員工人數"
-			   },
-			   {
-				"key": "F",
-				"name": "女性員工人數"
-			   }
-			  ],
-			  "type": "fill-extrusion"
-			 }
+				{
+					"index": "employee_gender",
+					"paint": {
+						"fill-extrusion-color": "#00A9FF",
+						"fill-extrusion-opacity": 1,
+						"fill-extrusion-base": 0,
+						"fill-extrusion-height": [
+							"interpolate",
+							[
+								"linear"
+							],
+							[
+								"to-number",
+								[
+									"get",
+									"M"
+								]
+							],
+							0,
+							0,
+							10000,
+							8000
+						]
+					},
+					"property": [
+						{
+							"key": "name",
+							"name": "機關名稱"
+						},
+						{
+							"key": "M",
+							"name": "男性員工人數"
+						},
+						{
+							"key": "F",
+							"name": "女性員工人數"
+						}
+					],
+					"type": "fill-extrusion"
+				},
+				{
+					"index": "employee_gender2",
+					"paint": {
+						"fill-extrusion-color": "#F875AA",
+						"fill-extrusion-opacity": 1,
+						"fill-extrusion-base": 0,
+						"fill-extrusion-height": [
+							"interpolate",
+							[
+								"linear"
+							],
+							[
+								"to-number",
+								[
+									"get",
+									"F"
+								]
+							],
+							0,
+							0,
+							10000,
+							8000
+						]
+					},
+					"property": [
+						{
+							"key": "name",
+							"name": "機關名稱"
+						},
+						{
+							"key": "M",
+							"name": "男性員工人數"
+						},
+						{
+							"key": "F",
+							"name": "女性員工人數"
+						}
+					],
+					"type": "fill-extrusion"
+				}
 			],
 			"chart_config": {
-			 "types": [
-			  "ColumnChart"
-			 ],
-			 "color": [
-			  "#00A9FF",
-			  "#F875AA"
-			 ],
-			 "unit": "人",
-			 "stacked": false,
-			 "categories": [
-			  "北投區",
-			  "士林區",
-			  "內湖區",
-			  "南港區",
-			  "松山區",
-			  "信義區",
-			  "中山區",
-			  "大同區",
-			  "中正區",
-			  "萬華區",
-			  "大安區",
-			  "文山區"
-			 ]
+				"types": [
+					"ColumnChart"
+				],
+				"color": [
+					"#00A9FF",
+					"#F875AA"
+				],
+				"unit": "人",
+				"stacked": false,
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				]
 			},
 			"name": "北市府各機關員工性別人數統計",
 			"source": "人事處",
@@ -5552,13 +5544,13 @@
 			"long_desc": "顯示臺北市政府各機關員工性別人數統計。",
 			"use_case": "透過台北市人事處公開資料，我們能了解當前臺北市政府各機關員工性別人數統計。",
 			"links": [
-			 "https://data.taipei/dataset/detail?id=3f80d60e-6fa3-47bd-899a-e2201985d6cf"
+				"https://data.taipei/dataset/detail?id=3f80d60e-6fa3-47bd-899a-e2201985d6cf"
 			],
 			"tags": [],
 			"contributors": [
-			 "tuic"
+				"tuic"
 			]
-		   },
+		},
 		   "908": {
 			   "id": 908,
 			   "index": "gender_homeStructure",
@@ -5636,8 +5628,12 @@
 			"map_config": null,
 			"history_data": true,
 			"chart_config": {
-				"types": ["TimelineStackedChart"],
-				"color": ["#4dd97a"],
+				"types": [
+					"TimelineStackedChart"
+				],
+				"color": [
+					"#4dd97a"
+				],
 				"unit": "%"
 			},
 			"name": "性別不平等指數[GII]",
@@ -5653,7 +5649,9 @@
 				"https://tsis.dbas.gov.taipei/statis/webMain.aspx?sys=220&ym=9100&ymt=11100&kind=21&type=0&funid=a02000091&cycle=4&outmode=0&compmode=00&outmode=0&ohtml=q250&outkind=11&fld0=1&rdm=R59049"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": [
+				"tuic"
+			]
 		},
 		"911": {
 			"id": 911,
@@ -5661,8 +5659,12 @@
 			"map_config": null,
 			"history_data": true,
 			"chart_config": {
-				"types": ["TimelineStackedChart"],
-				"color": [ "#0a85f4"],
+				"types": [
+					"TimelineStackedChart"
+				],
+				"color": [
+					"#0a85f4"
+				],
 				"unit": "%"
 			},
 			"name": "性別落差指數 (GGI)",
@@ -5678,7 +5680,50 @@
 				"https://gec.ey.gov.tw/page/E0810325D36C4E10"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": [
+				"tuic"
+			]
+		},
+		"805": {
+			"id": 805,
+			"index": "gender_doitTraining",
+			"map_config": null,
+			"chart_config": {
+				"types": [
+					"ColumnChart"
+				],
+				"color": [
+					"#00A9FF",
+					"#F875AA"
+				],
+				"unit": "人",
+				"stacked": false,
+				"categories": [
+					"105學年",
+					"106學年",
+					"107學年",
+					"108學年",
+					"109學年",
+					"110學年",
+					"111學年"
+				]
+			},
+			"name": "臺北市政府資訊局辦理之市民數位訓練性別人數統計",
+			"source": "臺北市政府資訊局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "臺北市政府資訊局辦理之市民數位訓練性別人數統計",
+			"long_desc": "臺北市政府資訊局辦理之市民數位訓練性別人數統計",
+			"use_case": "臺北市政府資訊局辦理之市民數位訓練性別人數統計",
+			"links": [
+				"https://data.taipei/dataset/detail?id=66c272d7-7b44-4206-b9ae-a87d364c0522"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
 		}
 	}
 }
