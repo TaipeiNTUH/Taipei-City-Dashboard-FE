@@ -3460,7 +3460,7 @@
 					"#33C552"
 				],
 				"types": [
-					"DistrictChartWithPie",
+					"DistrictChart",
 					"ColumnChart"
 				],
 				"unit": "棵",
@@ -5574,9 +5574,9 @@
 					   "#6D67E4",
 					   "#46C2CB",
 					   "#F2F7A1",
+					   "#FF90C2",
 					   "#FF90C2"
-				   ],
-				   "unit": "人"
+				   ],"unit": ""
 			   },
 			   "name": "性別落差指數涵蓋指標",
 			   "source": "主計處",
@@ -5614,8 +5614,8 @@
 			},
 			"name": "依性別平等教育法性騷擾通報案",
 			"source": "主計處",
-			"time_from": "2015-07-01T00:00:00+08:00",
-			"time_to": "2022-07-01T00:00:00+08:00",
+			"time_from": "2017-07-01T00:00:00+08:00",
+			"time_to": "2021-07-01T00:00:00+08:00",
 			"update_freq": 1,
 			"update_freq_unit": "year",
 			"short_desc": "依性別平等教育法性騷擾通報案",
