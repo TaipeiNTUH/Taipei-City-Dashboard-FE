@@ -4296,7 +4296,7 @@
 				  "M"
 				 ]
 				],
-				500,
+				0,
 				0,
 				50,
 				500
@@ -4417,6 +4417,31 @@
 			"links": [
 				"https://data.taipei/dataset/detail?id=0816f991-e6c8-4da0-a789-d022fee1462b",
 				"https://data.taipei/dataset/detail?id=d8834353-ff8e-4a6c-9730-a4d3541f2669"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"910": {
+			"id": 910,
+			"index": "building_license",
+			"map_config": null,
+			"history_data": true,
+			"chart_config": {
+				"types": ["TimelineStackedChart"],
+				"color": ["#4dd97a", "#0a85f4"],
+				"unit": "%"
+			},
+			"name": "性別不平等指數[GII]",
+			"source": "台北市政府主計處",
+			"time_from": "2002-01-01T00:00:00+08:00",
+			"time_to": "2022-06-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "month",
+			"short_desc": "GII 是使用三個維度衡量性別不平等的綜合指標",
+			"long_desc": "以生殖健康、賦權及勞動市場3 個領域之5 項指標衡量各國性別平等情形，本指數介於0至1之間，愈趨近於0表示性別愈平等。",
+			"use_case": "",
+			"links": [
+				"https://tsis.dbas.gov.taipei/statis/webMain.aspx?sys=220&ym=9100&ymt=11100&kind=21&type=0&funid=a02000091&cycle=4&outmode=0&compmode=00&outmode=0&ohtml=q250&outkind=11&fld0=1&rdm=R59049"
 			],
 			"tags": [],
 			"contributors": ["tuic"]
