@@ -5551,43 +5551,43 @@
 				"tuic"
 			]
 		},
-		"908": {
-			"id": 908,
-			"index": "gender_homeStructure",
-			"map_config": null,
-			"history_data": true,
-			"chart_config": {
-				"types": [
-					"TimelineSeparateChart",
-					"TimelineStackedChart"
-				],
-				"color": [
-					"#F45050",
-					"#6D67E4",
-					"#46C2CB",
-					"#F2F7A1",
-					"#FF90C2"
-				],
-				"unit": "人"
-			},
-			"name": "性別落差指數涵蓋指標",
-			"source": "主計處",
-			"time_from": "2017-07-01T00:00:00+08:00",
-			"time_to": "2021-07-01T00:00:00+08:00",
-			"update_freq": 1,
-			"update_freq_unit": "year",
-			"short_desc": "性別落差指數(Gender Gap Index,GGI)",
-			"long_desc": "性別落差指數(Gender Gap Index,GGI)涵蓋4個面向，計14個組成指標，從各面向選擇主要5個組成指標陳列。",
-			"use_case": "性別落差指數(Gender Gap Index,GGI)",
-			"links": [
-				"https://w2.dbas.gov.taipei/tp123/tb151.html",
-				"https://tsis.dbas.gov.taipei/statis/webMain.aspx?k1=A02000091&&barf=1"
-			],
-			"tags": [],
-			"contributors": [
-				"tuic"
-			]
-		},
+		   "908": {
+			   "id": 908,
+			   "index": "gender_homeStructure",
+			   "map_config": null,
+			   "history_data": true,
+			   "chart_config": {
+				   "types": [
+					   "TimelineSeparateChart",
+					   "TimelineStackedChart"
+				   ],
+				   "color": [
+					   "#F45050",
+					   "#6D67E4",
+					   "#46C2CB",
+					   "#F2F7A1",
+					   "#FF90C2",
+					   "#FF90C2"
+				   ],"unit": ""
+			   },
+			   "name": "性別落差指數涵蓋指標",
+			   "source": "主計處",
+			   "time_from": "2017-07-01T00:00:00+08:00",
+			   "time_to": "2021-07-01T00:00:00+08:00",
+			   "update_freq": 1,
+			   "update_freq_unit": "year",
+			   "short_desc": "性別落差指數(Gender Gap Index,GGI)",
+			   "long_desc": "性別落差指數(Gender Gap Index,GGI)涵蓋4個面向，計14個組成指標，從各面向選擇主要5個組成指標陳列。",
+			   "use_case": "性別落差指數(Gender Gap Index,GGI)",
+			   "links": [
+				   "https://w2.dbas.gov.taipei/tp123/tb151.html",
+				   "https://tsis.dbas.gov.taipei/statis/webMain.aspx?k1=A02000091&&barf=1"
+			   ],
+			   "tags": [],
+			   "contributors": [
+				   "tuic"
+			   ]
+		   },
 		"909": {
 			"id": 909,
 			"index": "gender_law",
@@ -5606,8 +5606,8 @@
 			},
 			"name": "依性別平等教育法性騷擾通報案",
 			"source": "主計處",
-			"time_from": "2015-07-01T00:00:00+08:00",
-			"time_to": "2022-07-01T00:00:00+08:00",
+			"time_from": "2017-07-01T00:00:00+08:00",
+			"time_to": "2021-07-01T00:00:00+08:00",
 			"update_freq": 1,
 			"update_freq_unit": "year",
 			"short_desc": "依性別平等教育法性騷擾通報案",
